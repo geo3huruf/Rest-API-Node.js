@@ -14,9 +14,9 @@ app.set("json spaces", 2);
 
 app.use("/", api);
 
-app.get("*", async (req, res) => {
-  res.redirect("https://www.apimau.ga");
-});
+//app.get("*", async (req, res) => {
+//  res.redirect("https://www.apimau.ga");
+//});
 
 app.listen(PORT, () => {
   console.log(`server running on port ${PORT}`);
