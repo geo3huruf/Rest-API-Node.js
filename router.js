@@ -31,7 +31,7 @@ const respon = {
 };
 
 router.get("/", async (req, res) => {
-  res.redirect("https://www.apimau.ga");
+  res.redirect("https://www.google.com");
 });
 
 router.get("/igs", async (req, res) => {
